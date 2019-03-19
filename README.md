@@ -4,6 +4,4 @@
 
 ![alt](css/media/matching.png)
 
-### How to submit your code for review:
-
-- 
+ 
