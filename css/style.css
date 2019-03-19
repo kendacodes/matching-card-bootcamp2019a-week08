@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("media/artBasquiat.jpg");
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  color: #f7f7f7;
+  background-color: #040404;
+  width:35%;
+  margin-left: 33%;
+  margin-top: 25px;
+}
+section{
+  width:75%;
+  height: 423px;
+  margin-left: 15%;
+  margin-top: 83px;
+  background-image: url("media/crown.jpg");
+  background-size: cover;
+  /* border:4px solid black;
+  background-color: #98bbcad1; */
+}
+
+.cards{
+  height:196px;
+  width:15%;
+  padding:5px;
+  float: left;
+  background-image: url("media/back.jpg");
+  background-size: cover;
+  margin: 8px
+}
+
+
+/* -------------------------SELECTED----------------------- */
+.spades.selected{
+  background-image: url("media/artB.jpg");
+ background-size: contain;
+}
+.diamonds.selected{
+  background-image: url("media/artBas.jpg");
+ background-size: contain;
+}
+.hearts.selected{
+  background-image: url("media/artBasq.jpg");
+ background-size: cover;
+}
+.clubs.selected{
+  background-image: url("media/artBasqu.jpg");
+ background-size: cover;
+}
+.joker.selected{
+  background-image: url("media/artBasqui.jpg");
+ background-size: cover;
+}
+.ace.selected{
+  background-image: url("media/artBasquia.jpg");
+ background-size: cover;
+}
+
+/* -------------------------MATCHED------------------------------ */
+
+.spades.matched{
+  background-image: url("media/artB.jpg");
+  background-size: contain;
+  border: 4px solid yellow;
+}
+.diamonds.matched{
+  background-image: url("media/artBas.jpg");
+  background-size: contain;
+  border: 4px solid blue;
+}
+.hearts.matched{
+ background-image: url("media/artBasq.jpg");
+ background-size: cover;
+ border: 4px solid orange;
+}
+.clubs.matched{
+ background-image: url("media/artBasqu.jpg");
+ background-size: cover;
+ border: 4px solid red;
+}
+.joker.matched{
+ background-image: url("media/artBasqui.jpg");
+ background-size: cover;
+ border: 4px solid green;
+}
+.ace.matched{
+ background-image: url("media/artBasquia.jpg");
+ background-size: cover;
+ border: 4px solid aqua;
+}
+
+/* --------------------------- MEDIA QUERY---------------------- */
+
+
+@media (min-width: 481px) and (max-width: 736px) {
+  header, .top, nav, .columnRight, .columnMiddle, .columnLeft, .four, .seven, .five, .six, .eight {
+    width: 100%;
+    float: left;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 980px) {
+  .columnLeft {
+    width: 50%;
+    float:
